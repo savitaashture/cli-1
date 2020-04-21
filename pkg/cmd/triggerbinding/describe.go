@@ -61,7 +61,7 @@ or
 	c := &cobra.Command{
 		Use:     "describe",
 		Aliases: []string{"desc"},
-		Short:   "Describes a triggerbinding in a namespace",
+		Short:   "Describes a triggerbindings in a namespace",
 		Example: eg,
 		Annotations: map[string]string{
 			"commandType": "main",
